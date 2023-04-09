@@ -1,0 +1,45 @@
+.hero-section {
+  position: relative;
+  height: 50vh;
+
+  z-index: 1;
+}
+
+.header {
+  background-color: #fa5153;
+  padding-bottom: 48px;
+}
+
+.wave-svg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.hero-input {
+  width: 800px;
+  margin: auto;
+  margin-top: -36px;
+}
+
+input[type="text"] {
+  width: 800px;
+  border-style: none;
+  color: #8c8c8c;
+  padding: 36px;
+  border-radius: 48px;
+  background: #ffffff url("../../assets/search-icon.svg") no-repeat 740px;
+  font-size: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+}
+
+.hero-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}

@@ -1,0 +1,37 @@
+.navbar {
+  padding: 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-items li {
+  margin-right: 36px;
+  color: white;
+  font-size: 14px;
+}
+
+.navbar-items li:nth-child(4) {
+  margin-right: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-title {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #000000;
+}

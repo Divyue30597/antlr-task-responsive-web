@@ -1,0 +1,22 @@
+.container {
+  margin: auto;
+  width: 800px;
+}
+
+.hero-heading {
+  /* padding-top: 24px; */
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  width: 600px;
+  margin: auto;
+}
+
+.hero-paragraph {
+  padding: 24px 0;
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+  color: #ffffff;
+}
