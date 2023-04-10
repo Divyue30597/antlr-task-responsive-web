@@ -1,0 +1,30 @@
+.section-two-heading {
+  font-size: 64px;
+  text-align: center;
+}
+
+.section-two-heading {
+  color: #1b2f4d;
+}
+
+.section-two-heading span {
+  color: #f95157;
+}
+
+.section-two-images-list {
+  display: flex;
+  margin-left: -164px;
+  overflow-x: hidden;
+}
+
+.section-two-images-list figure {
+  padding: 48px 16px;
+  margin: 96px 0;
+}
+
+.section-two-images-list figure img {
+  max-width: 428px;
+  border-radius: 16px;
+  box-shadow: 48px 48px 48px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

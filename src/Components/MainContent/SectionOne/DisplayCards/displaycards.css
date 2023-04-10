@@ -1,0 +1,17 @@
+.display-cards {
+  margin: 24px;
+}
+
+figure.section-one-bg-image img {
+  position: relative;
+  max-height: 220px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  filter: drop-shadow(24px 24px 24px rgb(0 0 0 / 0.3));
+}
+
+.section-one-image-heading {
+  top: 248px;
+  padding-left: 12px;
+  color: #ffffff;
+  position: absolute;
+}

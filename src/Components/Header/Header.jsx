@@ -11,7 +11,9 @@ function Header() {
         <Navbar />
         <Hero />
       </div>
-      <img className="wave-svg" src={wave} alt="This is wave." />
+      <figure>
+        <img className="wave-svg" src={wave} alt="This is wave." />
+      </figure>
       <div className="hero-input">
         <input type="text" placeholder="e.g. SEO, Design, Programming" />
       </div>

@@ -1,8 +1,8 @@
 .hero-section {
   position: relative;
-  height: 50vh;
-
   z-index: 1;
+  margin-bottom: 156px;
+  height: 100%;
 }
 
 .header {
