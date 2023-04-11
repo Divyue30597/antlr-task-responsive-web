@@ -12,7 +12,7 @@
 
 .section-four-bg {
   z-index: -1;
-  background-color: #f95157;
+  background-color: var(--primary-color);
   position: absolute;
   height: 456px;
   width: 85%;

@@ -11,17 +11,16 @@
   font-size: 64px;
   margin: 128px 0 24px 0;
   font-weight: 800;
-  color: #1b2f4d;
+  color: var(--secondary-color);
   max-width: 567px;
-
 }
 
 .section-five-heading h1 span {
-  color: #f95157;
+  color: var(--primary-color);
 }
 
 .section-five-heading p {
-  color: #a2a2a2;
+  color: var(--paragraph-color);
   max-width: 360px;
   font-size: 14px;
   line-height: 24px;

@@ -6,7 +6,7 @@
   text-align: center;
   font-size: 48px;
   margin-bottom: 48px;
-  color: #1b2f4d;
+  color: var(--secondary-color);
 }
 
 .section-six-heading-first::after {
@@ -27,7 +27,7 @@
 .form-body h1 {
   font-size: 36px;
   margin-bottom: 48px;
-  color: #1b2f4d;
+  color: var(--secondary-color);
 }
 
 .form-body-list {
@@ -40,13 +40,12 @@
 
 .section-six-heading-first span,
 .form-body h1 span {
-  color: #f95157;
+  color: var(--primary-color);
 }
 
 .full-form {
   display: flex;
   flex-direction: column;
-  width: 50%;
   padding: 0 12px;
 }
 
@@ -54,13 +53,12 @@
 .full-form form textarea[type="text"] {
   width: 100%;
   border-style: none;
-  color: #8c8c8c;
+  color: var(--input-color);
   margin-bottom: 24px;
   padding: 16px;
   border-radius: 12px;
   font-size: 14px;
   resize: none;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .full-form form input[type="text"]:focus,
@@ -73,8 +71,8 @@
 .full-form button {
   padding: 12px;
   width: 100%;
-  border: #f95157 2px solid;
-  background-color: #f95157;
+  border: var(--primary-color) 2px solid;
+  background-color: var(--primary-color);
   color: #ffffff;
   border-radius: 12px;
   transition-duration: 0.4s;
@@ -84,7 +82,7 @@
 .full-form button:hover {
   padding: 12px;
   width: 100%;
-  border: #f95157 2px solid;
+  border: var(--primary-color) 2px solid;
   border-radius: 12px;
   background-color: #ffffff;
   color: #000000;
@@ -103,7 +101,7 @@
 .form-body-list .bullet-point {
   height: 4px;
   width: 24px;
-  background-color: #f95157;
+  background-color: var(--primary-color);
   margin-right: 8px;
   border-radius: 4px;
 }
@@ -128,11 +126,11 @@
 }
 
 .section-six-contact-us-images li h3 {
-  color: #f95157;
+  color: var(--primary-color);
   margin-bottom: 12px;
 }
 
 .section-six-contact-us-images li p {
   font-size: 12px;
-  color: #b2b2b2;
+  color: var(--paragraph-color);
 }

@@ -10,6 +10,13 @@ export function Hero() {
         being able to do what we like best, every pleasure is to be welcomed and
         every pain avoided.
       </p>
+      <div className="hero-input">
+        <input
+          className="hero-main-input"
+          type="text"
+          placeholder="e.g. SEO, Design, Programming"
+        />
+      </div>
     </div>
   );
 }

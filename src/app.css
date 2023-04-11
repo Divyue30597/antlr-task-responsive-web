@@ -1,5 +1,5 @@
 #root {
   position: relative;
-  background-color: #f8f8f8;
+  background-color: var(--background-color);
   z-index: 1;
 }

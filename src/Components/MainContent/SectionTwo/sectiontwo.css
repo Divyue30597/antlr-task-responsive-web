@@ -4,11 +4,11 @@
 }
 
 .section-two-heading {
-  color: #1b2f4d;
+  color: var(--secondary-color);
 }
 
 .section-two-heading span {
-  color: #f95157;
+  color: var(--primary-color);
 }
 
 .section-two-images-list {
