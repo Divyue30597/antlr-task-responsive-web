@@ -1,5 +1,8 @@
 import "../MainContent/maincontent.css";
+import { SectionFive } from "./SectionFive/SectionFive";
+import { SectionFour } from "./SectionFour/SectionFour";
 import { SectionOne } from "./SectionOne/SectionOne";
+import { SectionSix } from "./SectionSix/SectionSix";
 import { SectionThree } from "./SectionThree/SectionThree";
 import { SectionTwo } from "./SectionTwo/SectionTwo";
 
@@ -15,9 +18,15 @@ export function MainContent() {
       <section className="section">
         <SectionThree />
       </section>
-      <section className="section">Section-4</section>
-      <section className="section">Section-5</section>
-      <section className="section">Section-6</section>
+      <section className="section">
+        <SectionFour />
+      </section>
+      <section className="section">
+        <SectionFive />
+      </section>
+      <section className="section">
+        <SectionSix />
+      </section>
     </>
   );
 }

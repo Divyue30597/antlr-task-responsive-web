@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SVGDoc" width="449" height="449" xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 449 449">
+    <defs>
+        <clipPath id="ClipPath1032">
+            <path
+                d="M227.30576,224.53244c0,-123.97999 -0.30602,-224.48484 0,-224.48484c124.00932,0 221.73168,100.50485 221.73168,224.48484"
+                fill="#ffffff"></path>
+        </clipPath>
+    </defs>
+    <g>
+        <g clip-path="url(#clip-492)">
+            <title>Ellipse 5</title>
+            <path
+                d="M112.2187,-0.00038c61.97662,0 112.2187,50.25613 112.2187,112.25005c0,61.99392 -50.24208,112.25005 -112.2187,112.25005c-61.97674,0 -112.2187,-50.25613 -112.2187,-112.25005c0,-61.99392 50.24197,-112.25005 112.2187,-112.25005z"
+                fill="#42c3af" fill-opacity="1"></path>
+        </g>
+        <g clip-path="url(#clip-492)">
+            <title>Rectangle 8</title>
+            <path d="M0,224.49972v0h224.43741v0v224.50011v0h-224.43741v0z" fill="#f2b115" fill-opacity="1"></path>
+        </g>
+        <g clip-path="url(#clip-492)">
+            <title>Ellipse 5 copy</title>
+            <path
+                d="M336.71871,224.49972c62.01118,0 112.28119,50.25613 112.28119,112.25005c0,61.99392 -50.27,112.25005 -112.28119,112.25005c-62.01118,0 -112.2813,-50.25613 -112.2813,-112.25005c0,-61.99392 50.27012,-112.25005 112.2813,-112.25005z"
+                fill="#8440f4" fill-opacity="1"></path>
+        </g>
+        <g clip-path="url(#clip-492)">
+            <title>Ellipse 6</title>
+            <path
+                d="M227.30576,224.53244c0,-123.97999 -0.30602,-224.48484 0,-224.48484c124.00932,0 221.73168,100.50485 221.73168,224.48484"
+                fill="#1f3eae" fill-opacity="1"></path>
+            <path
+                d="M227.30576,224.53244c0,-123.97999 -0.30602,-224.48484 0,-224.48484c124.00932,0 221.73168,100.50485 221.73168,224.48484"
+                fill-opacity="0" fill="#ffffff" stroke-dashoffset="0" stroke-dasharray="" stroke-linejoin="miter"
+                stroke-linecap="butt" stroke-opacity="1" stroke="#1f3eae" stroke-miterlimit="20" stroke-width="2"
+                clip-path="url(&quot;#ClipPath1032&quot;)"></path>
+        </g>
+    </g>
+</svg>

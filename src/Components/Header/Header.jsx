@@ -14,7 +14,7 @@ function Header() {
       <figure>
         <img className="wave-svg" src={wave} alt="This is wave." />
       </figure>
-      <div className="hero-input">
+      <div className="hero-input container">
         <input type="text" placeholder="e.g. SEO, Design, Programming" />
       </div>
       <div className="hero-cards container">

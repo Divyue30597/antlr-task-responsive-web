@@ -17,13 +17,11 @@
 }
 
 .hero-input {
-  width: 800px;
-  margin: auto;
   margin-top: -36px;
 }
 
-input[type="text"] {
-  width: 800px;
+.hero-input input[type="text"] {
+  width: inherit;
   border-style: none;
   color: #8c8c8c;
   padding: 36px;
@@ -33,7 +31,7 @@ input[type="text"] {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-input[type="text"]:focus {
+.hero-input input[type="text"]:focus {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   outline: none;
 }

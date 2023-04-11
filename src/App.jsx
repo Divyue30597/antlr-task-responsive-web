@@ -1,4 +1,5 @@
 // const Header = require("./Components/Header")
+import "./app.css";
 import Header from "./Components/Header/Header";
 import { MainContent } from "./Components/MainContent/MainContent";
 import { Footer } from "./Components/Footer/Footer";

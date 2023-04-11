@@ -1,0 +1,44 @@
+.section-four {
+  position: relative;
+  margin: 192px 0;
+  height: 100%;
+}
+
+.section-four-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-four-bg {
+  z-index: -1;
+  background-color: #f95157;
+  position: absolute;
+  height: 456px;
+  width: 85%;
+  border-radius: 48px 0 0 48px;
+  margin-left: 15%;
+  box-shadow: 48px 48px 48px rgba(0, 0, 0, 0.2),
+    0 4px 24px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-four-image figure img {
+  max-width: 320px;
+  margin: 66px 0;
+}
+
+.section-four-body {
+  color: #ffffff;
+  margin-left: 96px;
+}
+
+.section-four-body h1 {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.section-four-body p {
+  font-size: 14px;
+  line-height: 24px;
+}

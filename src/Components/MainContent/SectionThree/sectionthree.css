@@ -1,5 +1,6 @@
 .section-three {
   display: flex;
+  margin-bottom: 128px;
 }
 
 .section-three-heading {

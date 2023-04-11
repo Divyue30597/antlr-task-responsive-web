@@ -1,1 +1,5 @@
-
+#root {
+  position: relative;
+  background-color: #f8f8f8;
+  z-index: 1;
+}

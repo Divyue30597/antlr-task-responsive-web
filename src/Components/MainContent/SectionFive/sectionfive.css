@@ -1,0 +1,36 @@
+.section-five {
+  margin: 256px 0;
+}
+
+.section-five-body {
+  display: flex;
+  position: relative;
+}
+
+.section-five-heading h1 {
+  font-size: 64px;
+  margin: 128px 0 24px 0;
+  font-weight: 800;
+  color: #1b2f4d;
+  max-width: 567px;
+
+}
+
+.section-five-heading h1 span {
+  color: #f95157;
+}
+
+.section-five-heading p {
+  color: #a2a2a2;
+  max-width: 360px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.section-five-image figure img {
+  position: absolute;
+  /* top: -24px; */
+  max-width: 428px;
+  right: 12px;
+  z-index: -1;
+}
