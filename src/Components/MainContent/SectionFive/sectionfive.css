@@ -1,14 +1,14 @@
 .section-five {
-  margin: 256px 0;
+  height: 70vh;
 }
 
 .section-five-body {
   display: flex;
-  position: relative;
+  flex-wrap: wrap;
 }
 
 .section-five-heading h1 {
-  font-size: 64px;
+  font-size: var(--fs-primary-heading);
   margin: 128px 0 24px 0;
   font-weight: 800;
   color: var(--secondary-color);
@@ -23,13 +23,19 @@
   color: var(--paragraph-color);
   max-width: 360px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: var(--line-height);
+}
+
+.section-five-image {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
 }
 
 .section-five-image figure img {
   position: absolute;
-  /* top: -24px; */
-  max-width: 428px;
+  width: 100%;
+  margin-top: 96px;
   right: 12px;
   z-index: -1;
 }

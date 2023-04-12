@@ -1,9 +1,6 @@
 .section-two-heading {
-  font-size: 64px;
+  font-size: var(--fs-primary-heading);
   text-align: center;
-}
-
-.section-two-heading {
   color: var(--secondary-color);
 }
 

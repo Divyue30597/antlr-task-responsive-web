@@ -1,6 +1,6 @@
 .section-one {
   position: relative;
-  margin-bottom: 128px;
+  margin-bottom: var(--sec-margin-bottom);
   height: 100%;
 }
 
@@ -21,7 +21,7 @@
 
 .section-one-heading {
   margin-top: -58px;
-  font-size: 48px;
+  font-size: var(--fs-secondary-heading);
   width: 50%;
 }
 
@@ -39,7 +39,7 @@
   align-items: baseline;
   margin-right: 24px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: var(--line-height);
 }
 
 .section-one-list li p {
@@ -84,5 +84,6 @@
 
 .images-list {
   display: flex;
+  flex-wrap: wrap;
   max-width: 800px;
 }

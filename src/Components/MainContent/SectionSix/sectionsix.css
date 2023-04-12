@@ -94,7 +94,7 @@
   align-items: baseline;
   margin-right: 24px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: var(--line-height);
   color: #b2b2b2;
 }
 

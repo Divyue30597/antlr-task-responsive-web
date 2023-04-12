@@ -1,6 +1,6 @@
 .section-four {
   position: relative;
-  margin: 192px 0;
+  margin: var(--sec-margin-bottom) 0;
   height: 100%;
 }
 
@@ -23,22 +23,22 @@
 }
 
 .section-four-image figure img {
-  max-width: 320px;
+  max-width: 296px;
   margin: 66px 0;
 }
 
 .section-four-body {
   color: #ffffff;
-  margin-left: 96px;
+  margin: 48px;
 }
 
 .section-four-body h1 {
-  font-size: 42px;
+  font-size: var(--fs-ternary-heading);
   font-weight: 900;
   margin-bottom: 32px;
 }
 
 .section-four-body p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: var(--fs-paragraph);
+  line-height: var(--line-height);
 }

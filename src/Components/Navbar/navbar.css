@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .navbar-items {
@@ -10,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0 12px;
 }
 
 .navbar-items li {
@@ -34,4 +36,8 @@ a {
 
 a:hover {
   color: #000000;
+}
+
+@media screen {
+  
 }

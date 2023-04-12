@@ -1,11 +1,6 @@
-.container {
-  margin: auto;
-  max-width: 800px;
-}
-
 .hero-heading {
   padding-top: 24px;
-  font-size: 48px;
+  font-size: var(--fs-primary-heading);
   font-weight: 600;
   text-align: center;
   color: #ffffff;
@@ -14,9 +9,9 @@
 
 .hero-paragraph {
   padding: 24px 0;
-  font-size: 14px;
+  font-size: var(--fs-paragragh);
   text-align: center;
-  line-height: 25px;
+  line-height: var(--line-height);
   color: #ffffff;
 }
 

@@ -1,7 +1,6 @@
 .hero-section {
-  /* position: relative; */
   z-index: 1;
-  margin-bottom: 156px;
+  margin-bottom: var(--sec-margin-bottom);
   height: 100%;
 }
 
